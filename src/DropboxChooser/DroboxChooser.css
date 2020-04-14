@@ -1,0 +1,96 @@
+
+#header .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #375a7f ;  
+  border: 1px solid black;
+  
+}
+
+#header .grid-item {  
+  font-size: 20px;
+  text-align: center;    
+  border-left: 1px solid black;	
+  border-right: 1px solid black;	  
+}
+
+.grid-item-empty-cells
+{
+	background-color:black;
+}
+
+ul 
+{
+	list-style-type:none;
+	background-color:black;
+}
+
+li
+{
+	width:80%;
+}
+
+#header
+{
+	
+}
+
+#foldersBody button
+{
+	width:100%;		
+	border-radius: 0 !important;
+}
+
+.disabled 
+{
+	display:none;
+}
+
+#rightSet
+{
+	background-color:black;
+}
+
+#leftSet
+{
+	background-color:black;
+}
+
+#centerSet
+{
+	background-color:black;
+}
+
+/* The Modal (background) */
+.modal{
+	display:block !important;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal span 
+{
+	color:black;
+}
+
+.modal-content button 
+{
+	background-color:#0061fe;	
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  text-align: center;
+  width: 25%; /* Could be more or less, depending on screen size */
+}

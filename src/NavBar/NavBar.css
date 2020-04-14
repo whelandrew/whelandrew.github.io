@@ -1,0 +1,24 @@
+#navbar 
+{
+	font-family:courier,arial,helvetica;
+	padding-bottom: 0px;
+	padding-top:0px;
+}
+
+#navbar img 
+{
+	width:35px;
+}
+
+#starterButtons
+{
+	outline-style:solid;
+	outline-color:#375a7f;
+	padding:10px;
+	text-align: center;
+}
+
+#centerSignInButton
+{
+	text-align:center;
+}

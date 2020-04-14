@@ -1,0 +1,75 @@
+#loading
+{
+	text-align: center;
+}
+
+#carousel 
+{
+	text-align: center;
+}
+
+#carousel 
+{	
+}
+
+#imageDiv
+{
+	
+}
+
+#yesButton
+{
+	width: 225px;
+    height: 225px;
+	display:inline-block;
+}
+
+#noButton
+{
+	width: 225px;
+    height: 225px;
+	display:inline-block;
+}
+
+#item
+{
+}
+
+#item above
+{
+	display: block;
+}
+
+#item img
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	padding: 10px;
+	width: 100%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+#item .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+#item .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-size: 25px;
+}
+
+p .grid-item {  
+  font-size: 20px;
+  text-align: center;      
+}
