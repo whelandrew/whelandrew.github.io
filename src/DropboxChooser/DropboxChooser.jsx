@@ -4,7 +4,6 @@ import axios from 'axios';
 import DropboxChooser from 'react-dropbox-chooser';
 import './DroboxChooser.css';
 import auth0Client from '../Auth';
-import icon from '../Assets/drobboxlogo.png';
 
 class Dropbox extends React.Component {
   constructor(props) {
@@ -147,7 +146,7 @@ class Dropbox extends React.Component {
 								multiselect={false} 
 								folderselect={true}
 								extensions={['images']}>
-								<button size="lg" className='btn btn-info'><img src={icon} alt="Find A Folder In Dropbpx"/>Dropbox Chooser</button>				
+								<button size="lg" className='btn btn-info'><img src={'https://www.dropbox.com/s/g2kjbv7svbfke65/drobboxlogo.png?dl=0'} alt="Find A Folder In Dropbpx"/>Dropbox Chooser</button>				
 							</DropboxChooser>
 						</div>
 					</div>

@@ -1,9 +1,10 @@
 {
   "name": "kromsimageslider",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "main": "index.js",
   "license": "ISC",
+  "homepage":"https://whelandrew.github.io/",
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.7.0",
     "@babel/cli": "^7.8.4",
@@ -50,7 +51,7 @@
   "scripts": {
     "dev": "run-p server start",
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "build": "react-scripts build",
+    "build": "webpack --config ./webpack.config.js --mode production",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "node-env-run server --exec nodemon | pino-colada"

@@ -2,7 +2,6 @@ import React from 'react';
 import {Link, withRouter} from 'react-router-dom';
 import auth0Client from '../Auth';
 import './NavBar.css';
-import logo from '../Assets/logo.png';
 
 function NavBar(props) {
 	const signOut = () =>
@@ -14,7 +13,7 @@ function NavBar(props) {
   return (<div>
     <nav id='navbar' className="navbar navbar-dark bg-primary fixed-top">
       <Link id="brand" className="navbar-brand" to="/">
-		<img src={logo} alt=""/> Krom's Image Slider
+		<img src={'https://www.dropbox.com/s/49hmuyglfcjszyb/logo%20-%20Copy.png?dl=0'} alt=""/> Krom's Image Slider
       </Link>
 	  {
         !auth0Client.isAuthenticated() &&
