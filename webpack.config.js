@@ -42,13 +42,13 @@ module.exports = {
         ]
 	  }
     ]
-  },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-	new webpack.ProvidePlugin({ auth0: 'auth0-js' }) ]
-  ],
+  },  
   devServer: {
     contentBase: './dist',
 	hot: true
-  }
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+	new webpack.ProvidePlugin({ auth0: 'auth0-js' })
+  ]
 };
