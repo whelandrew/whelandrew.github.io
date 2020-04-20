@@ -13,7 +13,6 @@ const pino = require('express-pino-logger')();
 
 const PORT = process.env.PORT || 3000;
 const CLIENT_ID = process.env.CLIENT_ID;
-const URL = process.env.URL;
 const AUTH = process.env.AUTH;
 
 //const AUTH = "Bearer RvRO6h55szQAAAAAAAH2txU3jqcMgYHn-zdktTsTEKrHG39t0xdEjuUk-MxXr7Fy";
